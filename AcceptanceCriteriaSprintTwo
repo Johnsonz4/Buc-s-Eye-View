@@ -1,0 +1,28 @@
+Acceptance Criteria
+Unique Daily Images:
+o    Each day, players see exactly five unique images from the image bank.
+o    Images displayed are not repeated from previous days until the full set has been cycled.
+Image Collection and Location Logging:
+o    10 unique images are captured from different locations around campus.
+o    Each image is tagged with its location to validate correct answers.
+Smooth Transition Between Images:
+o    Transition animations are implemented between images to ensure a seamless experience.
+o    Transitions are tested to confirm smoothness on different devices (if applicable).
+Image Bank Management:
+o    Images are stored in a database or storage solution with metadata (e.g., location, ID).
+o    Images displayed each day are marked to prevent duplication within the same session.
+Random Image Selection:
+o    The game’s randomizer successfully selects five unique images each day from the image bank.
+o    Testing confirms the randomizer does not repeat images within the same day.
+Multiple-Choice Layout:
+o    Four answer options are displayed below each image, formatted for clear visibility.
+o    Options are randomized to prevent players from guessing based on option placement.
+Unique Answer Options:
+o    Each multiple-choice question has four unique answers without duplicates.
+o    Testing confirms no duplicate answers appear in a single question set.
+Single Guess Validation:
+o    Players are restricted to only one guess per image.
+o    If a player attempts multiple guesses, an error message or visual feedback indicates only one guess is allowed.
+Error Handling:
+o    Proper error handling is implemented for cases such as missing images, loading issues, or repeated answers.
+o    Errors are communicated to players through messages or indicators to improve user experience.
