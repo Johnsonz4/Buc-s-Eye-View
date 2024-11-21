@@ -1,0 +1,18 @@
+Sprint 3 Acceptance Criteria:
+
+Answer Validation:
+The game must correctly validate the player’s answer for each image.
+If the player selects the correct answer, the game should confirm that the answer is correct (via a prompt or visual indicator).
+If the player selects the wrong answer, the game should inform the player of the incorrect choice and not allow them to guess again for that image.
+One Guess per Image:
+Each image should allow the player only one guess. After submitting the guess, the game will proceed to the next image automatically.
+There should be no option to change or re-submit an answer once it has been made.
+Score Tracking:
+The player’s score should be tracked in real-time as they progress through the game.
+A correct answer should increment the score, while an incorrect answer should leave it unchanged.
+End of Game:
+Once all images have been displayed and the player has completed their guesses, the game must display the total score.
+The score should be shown in a clear, readable format at the end of the game, with a message congratulating or encouraging the player based on their performance.
+Multiple Choice Answer Layout:
+The answer choices for each image should be presented in a clear, easily selectable multiple-choice format.
+The answer layout should be consistent across all images for a smooth user experience.
